@@ -71,12 +71,12 @@ function App() {
   };
 
   return (
-    <div className="container mt-5">
-      <h2 className="text-center mb-4">Grade Calculator v1.1.0</h2>
+    <main className="container mt-5">
+      <h1 className="h2 text-center mb-4">Grade Calculator v1.1.0</h1>
 
       <div className="row">
         <div className="col-md-6">
-          <h5>Percent Weights (%)</h5>
+          <h2 className="h5">Percent Weights (%)</h2>
           <div className="form-group mb-3">
             <label>Midterm</label>
             <input type="number" name="midtermPercent" className="form-control" value={inputs.midtermPercent} onChange={handleChange} />
@@ -96,7 +96,7 @@ function App() {
         </div>
 
         <div className="col-md-6">
-          <h5>Grades (out of 100)</h5>
+          <h2 className="h5">Grades (out of 100)</h2>
           <div className="form-group mb-3">
             <label>Midterm</label>
             <input type="number" name="midtermGrade" className="form-control" onChange={handleChange} />
@@ -132,7 +132,7 @@ function App() {
       <footer className="text-center mt-5 text-muted">
         Developed by <strong>ABDULLAH BAMALHAS</strong> © 2025
       </footer>
-    </div>
+    </main>
   );
 }
 
